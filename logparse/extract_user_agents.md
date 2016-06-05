@@ -1,1 +1,1 @@
-awk -F'"' '/GET/ {print $6}' access.log | sort | uniq -c | sort -rn
+awk -F'"' '{print $6}' access.log | sort | uniq -c | sort -rn
