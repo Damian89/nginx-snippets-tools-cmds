@@ -5,8 +5,6 @@
         if ($badagent) {
                 return 444;
         }
-        
-        if ($http_user_agent = "") { return 444; }
 
         if ($denied) {
                 return 444;
